@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF8811"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:text="To-To"
+            android:textSize="40dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|center_horizontal"
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_weight="1.01">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:background="@drawable/mainimage"
+                    android:layout_weight="1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"></LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/menu1"
+                        android:id="@+id/btn_menu1"
+                        android:onClick="onClick01"
+                        android:nestedScrollingEnabled="false" />
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/menu2"
+                        android:id="@+id/btn_menu2"
+                        android:onClick="onClick02" />
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_margin="10dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/menu3"
+                        android:id="@+id/btn_menu5"
+                        android:onClick="onClick03" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    >
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/menu4"
+                        android:id="@+id/btn_menu6"
+                        android:onClick="onClick04" />
+
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/menu5"
+                        android:id="@+id/btn_menu7"
+                        android:onClick="onClick05" />
+                    <Button
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/menu6"
+                        android:id="@+id/btn_menu8"
+                        android:onClick="onClick06" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="홈"
+            android:background="@drawable/btn_press"
+            android:textColor="#FFFFFF"
+            android:id="@+id/btn_under1"
+            android:onClick="mainClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="여행톡"
+            android:background="@drawable/btn_press"
+            android:textColor="#FFFFFF"
+            android:id="@+id/btn_under3"
+            android:onClick="mainClick" />
+
+    </LinearLayout>
+
+</LinearLayout>

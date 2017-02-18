@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.food8.korea.Result"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF8811"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:text="To-To"
+            android:textSize="40dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|center_horizontal"
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="81dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txttitle_result"
+            android:textSize="45dp"
+            android:hint="제목"
+            android:text="Title"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/noimage"
+        android:id="@+id/mainimage_result"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_gravity="center"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/addview"
+        android:layout_weight="0.27">
+
+
+
+        <TextView
+            android:id="@+id/txtphone_result"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:hint="전화번호"/>
+
+        <TextView
+            android:id="@+id/txtaddr_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:hint="주소"/>
+
+        <TextView
+            android:id="@+id/txtzipcode_result"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:hint="우편번호" />
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"></LinearLayout>
+
+        <TextView
+            android:id="@+id/gayo_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="세부사항"
+            android:textSize="25dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtinfo_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:hint="세부내용"
+            android:text="세부내용" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"></LinearLayout>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dozzim"
+        android:id="@+id/btnzzim_result"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="홈"
+            android:background="@drawable/btn_press"
+            android:textColor="#FFFFFF"
+            android:id="@+id/btn_under1"
+            android:onClick="mainClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="여행톡"
+            android:background="@drawable/btn_press"
+            android:textColor="#FFFFFF"
+            android:id="@+id/btn_under3"
+            android:onClick="mainClick" />
+
+    </LinearLayout>
+</LinearLayout>

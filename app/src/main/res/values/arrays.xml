@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_array">
+        <item>도,특별시,광역시</item>
+        <item>서울</item>
+        <item>인천</item>
+        <item>대전</item>
+        <item>대구</item>
+        <item>광주</item>
+        <item>부산</item>
+        <item>울산</item>
+        <item>세종시</item>
+        <item>경기도</item>
+        <item>강원도</item>
+        <item>충청북도</item>
+        <item>충청남도</item>
+        <item>경상북도</item>
+        <item>경상남도</item>
+        <item>전라북도</item>
+        <item>전라남도</item>
+        <item>제주도</item>
+    </string-array>
+    <string-array name="default_city"><item>도,특별시,광역시</item></string-array>
+    <string-array name="default_contury"><item>시,군,구</item></string-array>
+    <string-array name="seoul_array">
+        <item>강남구</item>
+        <item>강동구</item>
+        <item>강북구</item>
+        <item>강서구</item>
+        <item>관악구</item>
+        <item>광진구</item>
+        <item>구로구</item>
+        <item>금천구</item>
+        <item>노원구</item>
+        <item>도봉구</item>
+        <item>동대문구</item>
+        <item>동작구</item>
+        <item>마포구</item>
+        <item>서대문구</item>
+        <item>서초구</item>
+        <item>성동구</item>
+        <item>성북구</item>
+        <item>송파구</item>
+        <item>양천구</item>
+        <item>영등포구</item>
+        <item>용산구</item>
+        <item>은평구</item>
+        <item>종로구</item>
+        <item>중구</item>
+        <item>중랑구</item>
+    </string-array>
+    <string-array name="incheon_array">
+        <item>강화군</item>
+        <item>계양구</item>
+        <item>남구</item>
+        <item>남동구</item>
+        <item>동구</item>
+        <item>부평구</item>
+        <item>서구</item>
+        <item>연수구</item>
+        <item>웅진군</item>
+        <item>중구</item>
+    </string-array>
+    <string-array name="daejeon_array">
+        <item>대덕구</item>
+        <item>동구</item>
+        <item>서구</item>
+        <item>유성구</item>
+        <item>중구</item>
+    </string-array>
+    <string-array name="daegu_array">
+        <item>남구</item>
+        <item>날서구</item>
+        <item>달성구</item>
+        <item>동구</item>
+        <item>북구</item>
+        <item>서구</item>
+        <item>수성구</item>
+        <item>중구</item>
+    </string-array>
+    <string-array name="gwangju_array">
+        <item>광산구</item>
+        <item>남구</item>
+        <item>동구</item>
+        <item>북구</item>
+        <item>서구</item>
+    </string-array>
+    <string-array name="busan_array">
+        <item>강서구</item>
+        <item>금정구</item>
+        <item>기장구</item>
+        <item>남구</item>
+        <item>동구</item>
+        <item>동래구</item>
+        <item>부산진구</item>
+        <item>북구</item>
+        <item>사상구</item>
+        <item>사하구</item>
+        <item>서구</item>
+        <item>수영구</item>
+        <item>연제구</item>
+        <item>영동구</item>
+        <item>중구</item>
+        <item>해운대구</item>
+    </string-array>
+    <string-array name="ulsan_array">
+        <item>중구</item>
+        <item>남구</item>
+        <item>동구</item>
+        <item>북구</item>
+        <item>울주군</item>
+    </string-array>
+    <string-array name="sejong_array">
+        <item>세종특별자치시</item>
+    </string-array>
+    <string-array name="gyunggi_array">
+        <item>가평</item>
+        <item>고양</item>
+        <item>과천</item>
+        <item>광명</item>
+        <item>광주</item>
+        <item>구리</item>
+        <item>군포</item>
+        <item>김포</item>
+        <item>남양주시</item>
+        <item>동두천시</item>
+        <item>부천시</item>
+        <item>성남시</item>
+        <item>수원시</item>
+        <item>시흥시</item>
+        <item>안산시</item>
+        <item>안성시</item>
+        <item>안양시</item>
+        <item>양주시</item>
+        <item>양평군</item>
+        <item>여주시</item>
+        <item>연천군</item>
+        <item>오산시</item>
+        <item>용인시</item>
+        <item>의왕시</item>
+        <item>의정부시</item>
+        <item>이천시</item>
+        <item>파주시</item>
+        <item>평택시</item>
+        <item>포천시</item>
+        <item>하남시</item>
+        <item>화성시</item>
+    </string-array>
+    <string-array name="gangwon_array">
+        <item>강릉시</item>
+        <item>고성군</item>
+        <item>동해시</item>
+        <item>삼척시</item>
+        <item>속초시</item>
+        <item>양구군</item>
+        <item>양양군</item>
+        <item>영월군</item>
+        <item>원주시</item>
+        <item>인제군</item>
+        <item>정선군</item>
+        <item>철원군</item>
+        <item>춘천시</item>
+        <item>태백시</item>
+        <item>평창군</item>
+        <item>홍천군</item>
+        <item>화천군</item>
+        <item>횡성군</item>
+    </string-array>
+    <string-array name="norchung_array">
+        <item>괴산군</item>
+        <item>단양군</item>
+        <item>보은군</item>
+        <item>영동군</item>
+        <item>옥천군</item>
+        <item>음성군</item>
+        <item>제천시</item>
+        <item>진천군</item>
+        <item>청원군</item>
+        <item>청주시</item>
+    </string-array>
+    <string-array name="souchung_array">
+        <item>공주시</item>
+        <item>금산군</item>
+        <item>논산시</item>
+        <item>당진시</item>
+        <item>보령시</item>
+        <item>부여군</item>
+        <item>서산시</item>
+        <item>서천군</item>
+        <item>아산시</item>
+        <item>예산군</item>
+        <item>천안시</item>
+        <item>청양군</item>
+        <item>태안군</item>
+        <item>홍성군</item>
+        <item>계룡시</item>
+    </string-array>
+    <string-array name="norgyung_array">
+        <item>경산시</item>
+        <item>경주시</item>
+        <item>고령군</item>
+        <item>구미시</item>
+        <item>군위군</item>
+        <item>김천시</item>
+        <item>문경시</item>
+        <item>봉화군</item>
+        <item>상주시</item>
+        <item>성주군</item>
+        <item>안동시</item>
+        <item>영덕군</item>
+        <item>영주시</item>
+        <item>영천시</item>
+        <item>예천군</item>
+        <item>울릉군</item>
+        <item>울진군</item>
+        <item>의성군</item>
+        <item>청도군</item>
+        <item>청송군</item>
+        <item>칠곡군</item>
+        <item>포항시</item>
+    </string-array>
+    <string-array name="sougyung_array">
+        <item>거제시</item>
+        <item>거창군</item>
+        <item>고성군</item>
+        <item>김해시</item>
+        <item>남해군</item>
+        <item>마산시</item>
+        <item>밀양시</item>
+        <item>사천시</item>
+        <item>산청군</item>
+        <item>양산시</item>
+        <item>의령군</item>
+        <item>진주시</item>
+        <item>진해시</item>
+        <item>창녕군</item>
+        <item>창원시</item>
+        <item>통영시</item>
+        <item>하동군</item>
+        <item>함안군</item>
+        <item>함양군</item>
+        <item>합천군</item>
+    </string-array>
+    <string-array name="norjun_array">
+        <item>고창군</item>
+        <item>군산시</item>
+        <item>김제시</item>
+        <item>남원시</item>
+        <item>무주군</item>
+        <item>부안군</item>
+        <item>순창군</item>
+        <item>완주군</item>
+        <item>익산시</item>
+        <item>임실군</item>
+        <item>장수군</item>
+        <item>전주시</item>
+        <item>정읍시</item>
+        <item>진안시</item>
+    </string-array>
+    <string-array name="soujun_array">
+        <item>강진군</item>
+        <item>고흥군</item>
+        <item>곡성군</item>
+        <item>광양시</item>
+        <item>구례군</item>
+        <item>나주시</item>
+        <item>담양군</item>
+        <item>목포시</item>
+        <item>무안군</item>
+        <item>보성군</item>
+        <item>순천시</item>
+        <item>신안군</item>
+        <item>여수시</item>
+        <item>영광군</item>
+        <item>영암군</item>
+        <item>완도군</item>
+        <item>장성군</item>
+        <item>장흥군</item>
+        <item>진도군</item>
+        <item>함평군</item>
+        <item>해남군</item>
+        <item>화순군</item>
+    </string-array>
+    <string-array name="jeju_array">
+        <item>남제주군</item>
+        <item>북제주군</item>
+        <item>서귀포시</item>
+        <item>제주시</item>
+    </string-array>
+
+    <string-array name="High_array">
+        <item>대분류</item>
+        <item>자연</item>
+        <item>인문(문화/예술/역사)</item>
+        <item>레포츠</item>
+        <item>쇼핑</item>
+        <item>음식</item>
+        <item>숙박</item>
+        <item>추천코스</item>
+    </string-array>
+    <string-array name="High_array_1">
+        <item>대분류</item>
+        <item>자연</item>
+        <item>인문(문화/예술/역사)</item>
+    </string-array>
+    <string-array name="High_array_2">
+        <item>대분류</item>
+        <item>인문(문화/예술/역사)</item>
+    </string-array>
+    <string-array name="High_array_3">
+        <item>대분류</item>
+        <item>인문(문화/예술/역사)</item>
+    </string-array>
+    <string-array name="High_array_4">
+        <item>대분류</item>
+        <item>추천코스</item>
+    </string-array>
+    <string-array name="High_array_5">
+        <item>대분류</item>
+        <item>레포츠</item>
+    </string-array>
+    <string-array name="High_array_6">
+        <item>대분류</item>
+        <item>숙박</item>
+    </string-array>
+    <string-array name="High_array_7">
+        <item>대분류</item>
+        <item>쇼핑</item>
+    </string-array>
+    <string-array name="High_array_8">
+        <item>대분류</item>
+        <item>음식</item>
+    </string-array>
+    <string-array name="Mid_array_1">
+        <item>중분류</item>
+        <item>자연관광지</item>
+        <item>관광자원</item>
+    </string-array>
+    <string-array name="Mid_array_2">
+        <item>중분류</item>
+        <item>역사관광지</item>
+        <item>휴양관광지</item>
+        <item>체험관광지</item>
+        <item>산업관광지</item>
+        <item>건축/조형물</item>
+        <item>문화시설</item>
+        <item>축제</item>
+        <item>공연/행사</item>
+    </string-array>
+    <string-array name="Mid_array_3">
+        <item>중분류</item>
+        <item>레포츠소개</item>
+        <item>육상 레포츠</item>
+        <item>수상 레포츠</item>
+        <item>항공 레포츠</item>
+        <item>복합 레포츠</item>
+    </string-array>
+    <string-array name="Mid_array_4">
+        <item>중분류</item>
+        <item>쇼핑</item>
+    </string-array>
+    <string-array name="Mid_array_5">
+        <item>중분류</item>
+        <item>음식점</item>
+    </string-array>
+    <string-array name="Mid_array_6">
+        <item>중분류</item>
+        <item>숙박시설</item>
+    </string-array>
+    <string-array name="Mid_array_7">
+        <item>중분류</item>
+        <item>가족코스</item>
+        <item>나홀로코스</item>
+        <item>힐링코스</item>
+        <item>도보코스</item>
+        <item>캠핑코스</item>
+        <item>맛코스</item>
+    </string-array>
+    <string-array name="Low_array_1_1">
+        <item>소분류</item>
+        <item>국립공원</item>
+        <item>도립공원</item>
+        <item>군립공원</item>
+        <item>산</item>
+        <item>자연생태관광지</item>
+        <item>자연휴양림</item>
+        <item>수목원</item>
+        <item>폭포</item>
+        <item>계곡</item>
+        <item>약수터</item>
+        <item>해안절경</item>
+        <item>해수욕장</item>
+        <item>섬</item>
+        <item>항구/포구</item>
+        <item>어촌</item>
+        <item>등대</item>
+        <item>호수</item>
+        <item>강</item>
+        <item>동굴</item>
+    </string-array>
+    <string-array name="Low_array_1_2">
+        <item>소분류</item>
+        <item>희귀 동,식물</item>
+        <item>기암괴석</item>
+    </string-array>
+    <string-array name="Low_array_2_1">
+        <item>소분류</item>
+        <item>고궁</item>
+        <item>성</item>
+        <item>문</item>
+        <item>고택</item>
+        <item>생가</item>
+        <item>민속마을</item>
+        <item>유적지/사적지</item>
+        <item>사찰</item>
+        <item>종교성지</item>
+        <item>안보관광</item>
+    </string-array>
+    <string-array name="Low_array_2_2">
+        <item>소분류</item>
+        <item>유원지</item>
+        <item>관광단지</item>
+        <item>온천/욕장/스파</item>
+        <item>이색찜질방</item>
+        <item>헬스투어</item>
+        <item>테마공원</item>
+        <item>공원</item>
+        <item>유람선/잠수함관광</item>
+    </string-array>
+    <string-array name="Low_array_2_3">
+        <item>소분류</item>
+        <item>농,산,어촌체험</item>
+        <item>전통체험</item>
+        <item>산사체험</item>
+        <item>이색체험</item>
+        <item>관광농원</item>
+        <item>이색거리</item>
+    </string-array>
+    <string-array name="Low_array_2_4">
+        <item>소분류</item>
+        <item>제철소</item>
+        <item>조선수</item>
+        <item>공단</item>
+        <item>발전소</item>
+        <item>광산</item>
+        <item>식음료</item>
+        <item>화학/금속</item>
+        <item>기타</item>
+        <item>전자/반도체</item>
+        <item>자동차</item>
+    </string-array>
+    <string-array name="Low_array_2_5">
+        <item>소분류</item>
+        <item>다리/대교</item>
+        <item>기념탑/기념비/전망대</item>
+        <item>분수</item>
+        <item>동상</item>
+        <item>터널</item>
+        <item>유명건물</item>
+    </string-array>
+    <string-array name="Low_array_2_6">
+        <item>소분류</item>
+        <item>박물관</item>
+        <item>기념관</item>
+        <item>전시관</item>
+        <item>컨벤션센터</item>
+        <item>미술관/화랑</item>
+        <item>공연장</item>
+        <item>문화원</item>
+        <item>외국문화원</item>
+        <item>도서관</item>
+        <item>대형서점</item>
+        <item>문화전수시설</item>
+        <item>영화관</item>
+        <item>어학당</item>
+        <item>학교</item>
+    </string-array>
+    <string-array name="Low_array_2_7">
+        <item>소분류</item>
+        <item>문화관광축제</item>
+        <item>일반축제</item>
+    </string-array>
+    <string-array name="Low_array_2_8">
+        <item>소분류</item>
+        <item>전통공연</item>
+        <item>연극</item>
+        <item>뮤지컬</item>
+        <item>오페라</item>
+        <item>전시회</item>
+        <item>박람회</item>
+        <item>컨벤션</item>
+        <item>무용</item>
+        <item>클래식음악회</item>
+        <item>대중콘서트</item>
+        <item>영화</item>
+        <item>스포츠경기</item>
+        <item>기타행사</item>
+    </string-array>
+    <string-array name="Low_array_3_1">
+        <item>소분류</item>
+        <item>육상레포츠</item>
+        <item>수상레포츠</item>
+        <item>항공레포츠</item>
+    </string-array>
+    <string-array name="Low_array_3_2">
+        <item>소분류</item>
+        <item>스포츠센터</item>
+        <item>수련센터</item>
+        <item>경기장</item>
+        <item>인라인(실내 인라인 포함)</item>
+        <item>자전거하이킹</item>
+        <item>카트</item>
+        <item>골프</item>
+        <item>경마</item>
+        <item>경륜</item>
+        <item>카지노</item>
+        <item>승마</item>
+        <item>스키/스노보드</item>
+        <item>스케이트</item>
+        <item>썰매장</item>
+        <item>수렵장</item>
+        <item>사격장</item>
+        <item>야영장,오토캠핑장</item>
+        <item>암벽등반</item>
+        <item>빙벽등반</item>
+        <item>서바이벌게임</item>
+        <item>ATV</item>
+        <item>MTB</item>
+        <item>오프로드</item>
+        <item>번지점프</item>
+        <item>자동차경주</item>
+        <item>스키(보드) 렌탈샵</item>
+        <item>트래킹</item>
+    </string-array>
+    <string-array name="Low_array_3_3">
+        <item>소분류</item>
+        <item>윈드서핑/제트스키</item>
+        <item>카약/카누</item>
+        <item>요트</item>
+        <item>스노쿨링/스킨스쿠버다이빙</item>
+        <item>민물낚시</item>
+        <item>바다낚시</item>
+        <item>수영</item>
+        <item>래프팅</item>
+    </string-array>
+    <string-array name="Low_array_3_4">
+        <item>소분류</item>
+        <item>스카이다이빙</item>
+        <item>초경량비행</item>
+        <item>행글라이딩/패러글라이딩</item>
+        <item>열기구</item>
+    </string-array>
+    <string-array name="Low_array_3_5">
+        <item>소분류</item>
+        <item>복합레포츠</item>
+    </string-array>
+    <string-array name="Low_array_4_1">
+        <item>소분류</item>
+        <item>5일장</item>
+        <item>상설시장</item>
+        <item>백화점</item>
+        <item>면세점</item>
+        <item>할인매장</item>
+        <item>전문상가</item>
+        <item>공예,공방</item>
+        <item>관광기념품점</item>
+        <item>특산물판매점</item>
+    </string-array>
+    <string-array name="Low_array_5_1">
+        <item>소분류</item>
+        <item>한식</item>
+        <item>서양식</item>
+        <item>일식</item>
+        <item>중식</item>
+        <item>아시아식</item>
+        <item>패밀리레스토랑</item>
+        <item>이색음식점</item>
+        <item>채식전문점</item>
+        <item>바/까페</item>
+        <item>클럽</item>
+    </string-array>
+    <string-array name="Low_array_6_1">
+        <item>소분류</item>
+        <item>관광호텔</item>
+        <item>수상관광호텔</item>
+        <item>전통호텔</item>
+        <item>가족호텔</item>
+        <item>콘도미니엄</item>
+        <item>유스호스텔</item>
+        <item>펜션</item>
+        <item>여관</item>
+        <item>모텔</item>
+        <item>민박</item>
+        <item>게스트하우스</item>
+        <item>홈스테이</item>
+        <item>서비스드레지던스</item>
+        <item>의료관광호텔</item>
+        <item>소형호텔</item>
+        <item>한옥스테이</item>
+    </string-array>
+    <string-array name="Low_array_7_1">
+        <item>소분류</item>
+        <item>가족코스</item>
+    </string-array>
+    <string-array name="Low_array_7_2">
+        <item>소분류</item>
+        <item>나홀로코스</item>
+    </string-array>
+    <string-array name="Low_array_7_3">
+        <item>소분류</item>
+        <item>힐링코스</item>
+    </string-array>
+    <string-array name="Low_array_7_4">
+        <item>소분류</item>
+        <item>도보코스</item>
+    </string-array>
+    <string-array name="Low_array_7_5">
+        <item>소분류</item>
+        <item>캠핑코스</item>
+    </string-array>
+    <string-array name="Low_array_7_6">
+        <item>소분류</item>
+        <item>맛코스</item>
+    </string-array>
+    <string-array name="Mid_default">
+        <item>중분류</item>
+    </string-array>
+    <string-array name="Low_default">
+        <item>소분류</item>
+    </string-array>
+</resources>

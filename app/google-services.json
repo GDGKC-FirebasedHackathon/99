@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "414450165702",
+    "firebase_url": "https://tozzim-159012.firebaseio.com",
+    "project_id": "tozzim-159012",
+    "storage_bucket": "tozzim-159012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414450165702:android:7cfee998aac047b8",
+        "android_client_info": {
+          "package_name": "com.tozzim.korea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414450165702-94ito6movm6vtd8u7uhkc46mrcm26phe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tozzim.korea",
+            "certificate_hash": "3F51BDF4EB531CF7CE660F50B79B6D87EB5B8C0C"
+          }
+        },
+        {
+          "client_id": "414450165702-68qrsbjr2a7sdgfra33dsvv4sg6oun3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_BcGqkiVwD9YpGUM2briQxhthlmbdQ9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414450165702-68qrsbjr2a7sdgfra33dsvv4sg6oun3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

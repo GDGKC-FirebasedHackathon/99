@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF8811</color>
+    <color name="colorPrimaryDark">#FF8811</color>
+    <color name="colorAccent">#FF4081</color>
+    <drawable name="btn_select">#FFBB55</drawable>
+    <drawable name="btn_default">#FF8811</drawable>
+    <color name="colorSpinner">#EEEEEE</color>
+    <color name="colorTitle">#ffffff</color>
+</resources>
