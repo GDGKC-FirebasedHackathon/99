@@ -87,7 +87,7 @@ public class GoogleMapShow extends FragmentActivity implements OnMapReadyCallbac
         LatLng location = new LatLng(mapy_int, mapx_int);
         mMap.addMarker(new MarkerOptions().position(location).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(location));
-        CameraUpdate zoom = CameraUpdateFactory.zoomTo(16);
+        CameraUpdate zoom = CameraUpdateFactory.zoomTo(10);
         mMap.animateCamera(zoom);
     }
 }

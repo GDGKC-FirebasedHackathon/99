@@ -15,11 +15,19 @@
       },
       "oauth_client": [
         {
+          "client_id": "414450165702-t1qf435urk1gr6b3f7mhh3kin19pq600.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tozzim.korea",
+            "certificate_hash": "2ec39e8b39a8460cb3dd1b5c7ae7bf37ca1f839a"
+          }
+        },
+        {
           "client_id": "414450165702-94ito6movm6vtd8u7uhkc46mrcm26phe.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.tozzim.korea",
-            "certificate_hash": "3F51BDF4EB531CF7CE660F50B79B6D87EB5B8C0C"
+            "certificate_hash": "3f51bdf4eb531cf7ce660f50b79b6d87eb5b8c0c"
           }
         },
         {
